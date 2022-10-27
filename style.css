@@ -1,0 +1,150 @@
+body {
+  background-image: url(imgs/pattern-background-desktop.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: "Red Hat Display", sans-serif;
+  height: 100vh;
+}
+
+.main-box {
+  width: 450px;
+  height: 697px;
+  background: #ffffff;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 450px;
+  height: 220px;
+}
+
+.header img {
+  max-width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.middle-part1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-part1 h1 {
+  font-weight: 900;
+  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  color: #1f2e55;
+}
+
+.middle-part1 p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #717fa6;
+  width: 354px;
+  height: 78px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.middle-part2 {
+  width: 354px;
+  height: 98px;
+  border-radius: 11px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7f9ff;
+  margin-left: 45px;
+  margin-top: 5px;
+  padding: 0;
+}
+
+.left {
+  margin-left: -5px;
+  display: flex;
+  align-items: center;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  margin-left: -30px;
+}
+
+.plan {
+  color: #1f2e55;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.price {
+  color: #717fa6;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.right {
+  margin-left: 35px;
+}
+
+.change {
+  color: #382ae1;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.change:hover {
+  color: #1a0ea7;
+}
+
+.footer {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer button {
+  width: 354px;
+  height: 50px;
+  background-color: #382ae1;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 15px;
+  border: none;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.footer button:hover {
+  background-color: #4736fa;
+}
+
+.footer p {
+  color: #717fa6;
+  font-weight: 900;
+  font-size: 15px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.footer p:hover {
+  color: #4e5158;
+}
